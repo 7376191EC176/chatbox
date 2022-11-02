@@ -1,0 +1,126 @@
+.my-msg {
+  align-self: flex-end;
+  border: 3px solid rgb(138, 95, 155);
+  border-radius: 10px;
+  max-width: 90%;
+  word-wrap: break-word;
+  padding: 5px;
+  text-align: right;
+}
+.others-msg {
+  align-self: flex-start;
+  border: 3px solid rgb(95, 155, 143);
+  border-radius: 10px;
+  max-width: 90%;
+  padding: 5px;
+  word-wrap: break-word;
+  text-align: left;
+}
+#chat-window {
+  display: flex;
+  flex-direction: column-reverse;
+  overflow: auto;
+}
+#free-chat {
+  background-color: rgba(251, 226, 137, 0.9);
+  border: 2px solid rgb(0, 0, 0);
+  color: rgb(111, 1, 155);
+  display: none;
+  float: center;
+  font-size: larger;
+  height: 35rem;
+  margin: auto;
+  margin-top: 5%;
+  text-align: center;
+  width: 30rem;
+}
+#flex-rev {
+  color: rgb(11, 24, 31);
+  display: flex;
+  flex-direction: column;
+  height: 29rem;
+  justify-content: flex-end;
+}
+#login-btn {
+  background-color: rgba(127, 255, 212, 0.845);
+  border-radius: 10px;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+}
+#login {
+  align-items: center;
+  color: rgb(204, 175, 114);
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  gap: 1.5rem;
+  height: 30rem;
+  justify-content: center;
+  width: 60%;
+}
+#message {
+  border: solid black;
+  border-radius: 10px;
+  width: 15rem;
+}
+#name {
+  background-color: rgba(223, 116, 255, 0.675);
+  border: solid rgba(255, 0, 111, 0.547);
+  border-radius: 10px;
+  color: whitesmoke;
+  height: 2rem;
+  text-align: center;
+  width: 15rem;
+}
+#other-color {
+  color: rgb(95, 155, 143);
+  text-align: left;
+}
+#output {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+#send {
+  border-radius: 10px;
+}
+#send-msg {
+  height: 2rem;
+}
+#you-color {
+  color: rgb(138, 95, 155);
+  text-align: right;
+}
+::placeholder {
+  color: rgba(255, 245, 245, 0.816);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(199, 140, 114);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #df8b32a2;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #e38a2b;
+}
+
+body {
+  background-image: url("../assets/login_background.png");
+  background-size: cover;
+  font-family: "Times New Roman", Times, serif;
+}
